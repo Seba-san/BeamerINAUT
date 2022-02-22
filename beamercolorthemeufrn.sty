@@ -1,25 +1,33 @@
 % Cores, Background, entre outras coisas.
 \usepackage{color}
+
+
 %R G B
 \DefineNamedColor{named}{azul2}{RGB}{40,96,127}
-\DefineNamedColor{named}{azul1}{RGB}{4,151,229}
+\DefineNamedColor{named}{azul1}{RGB}{153,98,31}
 \DefineNamedColor{named}{azul3}{RGB}{1,41,64}
 \DefineNamedColor{named}{laranja1}{RGB}{255,146,5}
+\DefineNamedColor{named}{cobre}{RGB}{200,166,103}
+\DefineNamedColor{named}{azulin}{RGB}{21,25,50}
+\DefineNamedColor{named}{cobrein}{RGB}{154,126,74}
+\DefineNamedColor{named}{azulin2}{RGB}{21,30,50}
 
 \mode<presentation>
-\setbeamercolor{author in head/foot}{bg=azul1, fg=white}
-\setbeamercolor{title in head/foot}{bg=azul2, fg=white}
-%\setbeamercolor{institute in head/foot}{fg=instituteColor}
-\setbeamercolor{date in head/foot}{bg=azul3, fg=white}
+\setbeamercolor{author in head/foot}{bg=azulin, fg=white}
+\setbeamercolor{title in head/foot}{bg=cobrein, fg=white}
+\setbeamercolor{institute in head/foot}{fg=cobrein}
+\setbeamercolor{date in head/foot}{bg=azulin, fg=white}
 
-\setbeamercolor{alerted text}{fg=azul1!80!laranja1}
-\setbeamercolor*{palette primary}{fg=white,bg=azul2}
+\setbeamercolor{alerted text}{fg=cobrein!80!azulin}
+\setbeamercolor*{palette primary}{fg=white,bg=azulin}
 \setbeamercolor*{palette secondary}{fg=laranja1,bg=white}
-\setbeamercolor*{palette tertiary}{fg=white,bg=azul3}
+\setbeamercolor*{palette tertiary}{fg=white,bg=azulin}
 \setbeamercolor*{palette quaternary}{fg=white,bg=laranja1}
-\setbeamercolor*{structure}{fg=azul3,bg=white}
-\setbeamercolor{frametitle}{fg=white,bg=azul3}
+\setbeamercolor*{structure}{fg=azulin,bg=cobrein}
+\setbeamercolor{frametitle}{fg=white,bg=cobrein}
 \mode<all>
+
+
 
 \defbeamertemplate*{footline}{ufrn theme}
 {%
@@ -41,6 +49,5 @@
 }
 
 % Background
-% Background
 \setbeamertemplate{background}{
-	\includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{./images/background_inaut}}
+	\includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{images/background-03.eps}}
