@@ -1,0 +1,61 @@
+\usepackage[utf8]{inputenc} %acentos sin codigo extra \usepackage[utf8]{inputenc}
+\usepackage{graphicx}%es para agregar imagenes
+%\usepackage{subfigure}  %es para las subfiguras
+\usepackage{subcaption} % poner mejores subfiguras?
+\usepackage[spanish,es-noshorthands,es-tabla]{babel} %agrega unos caracteres extra al spanish de babel
+\usepackage{alltt} %Ver para que es esto, me parece que simplifica el "` vervatim"'
+\usepackage{listings} % es para poder cargar los codigos y que se vean bonitos
+\renewcommand\lstlistingname{Código} % Sirve para cambiar el titulo de los codigos. En vez de decir "listing"
+%\usepackage[hidelinks]{hyperref} % para agregar links "`[hidelinks]"' sirve para sacar el recuadro alrededor del link
+\usepackage{amsthm} % ambiente matematico
+\usepackage{amsmath} %otro ambiente matematico
+\usepackage{mathtools}%otro ambiente matematico
+\usepackage{color} % para poner textos con color 
+\usepackage{hyperref} % para poner links
+\usepackage{epsfig} % para poner color en las tablas
+\usepackage{multirow}% para poner color en las tablas
+\usepackage{colortbl}% para poner color en las tablas. Esta es la mas importante 
+%\usepackage[table]{xcolor}% para poner color en las tablas % http://ctan.org/pkg/xcolor
+\usepackage{adjustbox} % Para que las tablas no se salgan de los margenes
+\usepackage{fancyhdr} % Es para el encabezado y el pie de pagina
+\usepackage{xcolor}% para poner color % http://ctan.org/pkg/xcolor
+\usepackage{tikz}  % Para superponer imaganes
+\usepackage{amssymb} % Para agregar simbolos distintos al itemize.
+% Para justificar
+\usepackage{ragged2e}
+%\usepackage{etoolbox}
+%\usepackage{lipsum}
+% Para poner pseudocodigos
+\usepackage{algorithm}
+%\usepackage[noend]{algpseudocode}
+\usepackage{algorithm,algorithmic}
+
+\newcommand{\matlab}{MATLAB\textsuperscript{\textregistered}\ }
+% Para poner un lindo codigo de matlab:
+% For faster processing, load Matlab syntax for listings
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+ 
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=true,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=false,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+ 
+\lstset{style=mystyle}
+  %---------------------------------------------------------
